@@ -50,5 +50,36 @@ a {
     justify-content: center;
     width: 1000px;
     margin: 72px 0px;
-    
+    gap: 12px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882F6;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 6px;
+    color: #F9FAF8;
+    width: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right img {
+    width: 500px;
+    height: auto;
 }
