@@ -71,6 +71,7 @@ button {
     border-radius: 6px;
     color: #F9FAF8;
     width: 100px;
+    height: 32px;
 }
 
 .left {
@@ -149,4 +150,28 @@ button {
 
 .quote strong{
     align-self: flex-end;
+}
+
+.section4 {
+    padding: 48px 0px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 32px 48px;
+    border-radius: 8px;
+}
+
+.box button {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    width: 100vw;
+    padding: 16px;
 }
